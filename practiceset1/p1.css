@@ -1,0 +1,10 @@
+/* External CSS to style the divs */
+.external-style {
+    color: purple;
+    border: 2px solid purple;
+}
+
+/* External CSS targeting internal-style class */
+.internal-style {
+    background-color: lightgray;
+}

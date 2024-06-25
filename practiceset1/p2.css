@@ -1,0 +1,42 @@
+/* Base styles for the content block */
+.content {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Base styles for paragraphs within the content block */
+.content__paragraph {
+    margin: 10px 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Modifier for primary paragraph */
+.content__paragraph--primary {
+    color: white;
+    background-color: blue;
+    border: 1px solid darkblue;
+}
+
+/* Modifier for secondary paragraph */
+.content__paragraph--secondary {
+    color: white;
+    background-color: green;
+    border: 1px solid darkgreen;
+}
+
+/* Modifier for highlighted paragraph */
+.content__paragraph--highlight {
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    border: 1px solid orange;
+}
+
+/* Modifier for note paragraph */
+.content__paragraph--note {
+    color: white;
+    background-color: gray;
+    font-style: italic;
+    border: 1px solid darkgray;
+}

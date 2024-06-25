@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #f5f5dc;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-image {
+    float: right;
+    margin: -40px 0 0;
+    max-width: 400px;
+    height: 240px;
+    border-radius: 8px;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+}

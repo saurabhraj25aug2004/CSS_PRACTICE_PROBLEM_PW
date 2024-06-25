@@ -1,0 +1,32 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the Navbar */
+.navbar {
+    background-color: #5a9bd4; /* Blue background color */
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar__item {
+    margin: 0 15px;
+}
+
+.navbar__link {
+    color: #fff; /* White text color */
+    font-size: 16px;
+}
+
+.navbar__link:hover {
+    color: #454545; /* Dark color on hover */
+}

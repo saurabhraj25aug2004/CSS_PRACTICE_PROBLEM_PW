@@ -1,0 +1,45 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    position: relative;
+    height: 100vh;
+}
+/* Box Styling */
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #b3ffec;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 1px solid #000;
+}
+/* Specific Box Positions */
+#boxA {
+    top: 200px;
+    left: 200px;
+}
+#boxB {
+    top: 170px; /* 200px - 30px */
+    left: 170px; /* 200px - 30px */
+}
+#boxC {
+    top: 170px; /* 200px - 30px */
+    left: 230px; /* 200px + 30px */
+}
+#boxD {
+    top: 230px; /* 200px + 30px */
+    left: 170px; /* 200px - 30px */
+}
+#boxE {
+    top: 230px; /* 200px + 30px */
+    left: 230px; /* 200px + 30px */
+}

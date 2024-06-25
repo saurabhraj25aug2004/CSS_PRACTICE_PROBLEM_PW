@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+/* Card Styling */
+.card {
+    background-color: #7fffd5; /* Skygreen background color */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    opacity: 0.5;
+}
+/* Card after hover */
+.card:hover {
+    opacity: 1;
+}
+.card__image {
+    width: 100%;
+    border-radius: 10px;
+}
+.card__description {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
+.card__description strong {
+    color: #000;
+}

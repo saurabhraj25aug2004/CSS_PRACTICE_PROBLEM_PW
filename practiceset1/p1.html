@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different methods to add CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Styling the divs internally */
+        .internal-style {
+            color: blue;
+            border: 2px solid blue;
+        }
+    </style>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div class="inline-style" style="color: red; border: 2px solid red;">
+        This div uses inline CSS
+    </div>
+  </br>
+
+    <!-- Internal CSS -->
+    <div class="internal-style">
+        This div uses internal CSS
+    </div>
+  </br>
+
+    <!-- External CSS -->
+    <div class="external-style">
+        This div uses external CSS
+    </div>
+    </br>
+
+    <!-- Combination of Inline, Internal, and External CSS -->
+    <div class="internal-style external-style" style="color: green; border: 2px solid green;">
+        This div uses inline, internal, and external CSS
+    </div>
+</body>
+</html>
